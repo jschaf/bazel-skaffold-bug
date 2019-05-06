@@ -1,0 +1,7 @@
+apiVersion: skaffold/v1beta9
+kind: Config
+build:
+  artifacts:
+  - image: bazel/foobarbaz
+    bazel:
+      target: //foobarbaz:skaffold_example.tar

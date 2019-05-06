@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bazel-foobarbaz
+spec:
+  containers:
+  - name: bazel-foobarbaz
+    image: bazel/foobarbaz
